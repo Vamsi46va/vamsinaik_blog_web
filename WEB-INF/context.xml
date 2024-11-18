@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Application context configuration -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    
+    <!-- Set the context path and other attributes -->
+    <Context path="/Blog_Website"
+             docBase="C:/Users/DELL/Downloads/Blog_Website_V2"
+             reloadable="true">
+        
+        <!-- Add any resource definitions if needed -->
+        <!-- Example for database connection:
+        <Resource name="jdbc/myDataSource"
+                  auth="Container"
+                  type="javax.sql.DataSource"
+                  driverClassName="oracle.jdbc.OracleDriver"
+                  url="jdbc:oracle:thin:@localhost:1521:XE"
+                  username="root"
+                  password="Vamsi46va@123"
+                  maxTotal="20"
+                  maxIdle="10"
+                  maxWaitMillis="-1"/>
+        -->
+    </Context>
+</Context>
